@@ -1,0 +1,149 @@
+<｜begin▁of▁sentence｜>What is the smallest positive perfect cube that can be written as the sum of three consecutive integers? 
+
+Okay, so I have this math problem: Find the smallest positive perfect cube that can be written as the sum of three consecutive integers. Hmm, interesting. Let me try to figure this out step by step.
+
+First, let's understand the problem. We need a cube number, say n³, which can also be expressed as the sum of three consecutive integers. So, if I denote the three consecutive integers as k, k+1, and k+2, their sum would be k + (k+1) + (k+2). Let me write that down:
+
+Sum = k + (k + 1) + (k + 2) = 3k + 3.
+
+So, the sum simplifies to 3(k + 1). That means the sum is a multiple of 3. Therefore, the cube number n³ must be divisible by 3. So, n³ is divisible by 3, which implies that n itself must be divisible by 3 because 3 is prime. So, n is a multiple of 3, let me denote n as 3m, where m is a positive integer.
+
+Therefore, n³ = (3m)³ = 27m³.
+
+So, the cube number is 27m³, and this should equal 3(k + 1). Therefore:
+
+27m³ = 3(k + 1)
+
+Divide both sides by 3:
+
+9m³ = k + 1
+
+So, k = 9m³ - 1.
+
+Hmm, so k must be an integer because we're talking about integers. Since m is a positive integer, k will be positive as well because 9m³ is positive and subtracting 1 will still leave a positive number (for m ≥ 1).
+
+Now, our goal is to find the smallest positive cube, which would correspond to the smallest m. So, let's try m=1 first.
+
+For m=1:
+
+k = 9(1)³ - 1 = 9 - 1 = 8.
+
+So, the three consecutive integers are 8, 9, 10.
+
+Let me check their sum: 8 + 9 + 10 = 27.
+
+Is 27 a perfect cube? Yes, because 3³ = 27. So, that works.
+
+Wait, so is 27 the smallest such cube? Let me double-check because sometimes there might be a smaller cube.
+
+But 27 is the cube of 3, and since 1³=1, 2³=8, 3³=27.
+
+Wait, let me see if 8 can be expressed as the sum of three consecutive integers.
+
+If I try to express 8 as the sum of three consecutive integers, let's find k:
+
+8 = k + (k + 1) + (k + 2) = 3k + 3.
+
+So, 8 = 3k + 3 => 3k = 5 => k = 5/3, which is not an integer. So, 8 cannot be expressed as such.
+
+Similarly, 1: 1 = 3k + 3 => k = -2/3, not integer.
+
+2: 2 = 3k + 3 => k = -1/3, not integer.
+
+So, 27 is indeed the smallest positive cube that can be written as the sum of three consecutive integers.
+
+But wait, just to be thorough, let me check m=2.
+
+For m=2:
+
+k = 9(8) - 1 = 72 - 1 = 71.
+
+Sum = 71 + 72 + 73 = 216, which is 6³. So, 216 is also a cube.
+
+But 216 is larger than 27, so 27 is still the smallest.
+
+Similarly, for m=3:
+
+k = 9(27) - 1 = 243 - 1 = 242.
+
+Sum = 242 + 243 + 244 = 729, which is 9³.
+
+Again, larger than 27.
+
+So, 27 is indeed the smallest.
+
+Wait, but just to be completely sure, is there any cube smaller than 27 that can be written as the sum of three consecutive integers?
+
+Looking back at the cubes: 1, 8, 27, 64, 125, etc.
+
+We saw that 1 and 8 can't be expressed as such a sum because k would not be an integer. So, the next cube is 27, which works.
+
+Therefore, 27 is the smallest such cube.
+
+But let me also check algebraically.
+
+Given that 3(k + 1) = n³.
+
+So, n³ must be divisible by 3, so n must be divisible by 3, as we said before.
+
+Thus, n = 3m, so n³ = 27m³.
+
+So, 3(k + 1) = 27m³ => k + 1 = 9m³ => k = 9m³ - 1.
+
+So, k must be an integer, which it is for m integer.
+
+But for the cube to be positive, m must be at least 1.
+
+So, m=1 gives the smallest cube, which is 27.
+
+Therefore, 27 is indeed the smallest positive perfect cube expressible as the sum of three consecutive integers.
+
+Just to wrap up, the three consecutive integers are 8, 9, 10, and their sum is 27, which is 3³.
+
+So, yeah, that's the answer.
+
+**Final Answer**
+The smallest positive perfect cube is \boxed{27}.
+</think>
+
+To find the smallest positive perfect cube that can be written as the sum of three consecutive integers, we start by denoting the three consecutive integers as \( k \), \( k+1 \), and \( k+2 \). Their sum is:
+
+\[
+k + (k + 1) + (k + 2) = 3k + 3
+\]
+
+This sum simplifies to \( 3(k + 1) \). Therefore, the cube number \( n^3 \) must be divisible by 3, implying \( n \) itself must be divisible by 3. Let \( n = 3m \), where \( m \) is a positive integer. Then, \( n^3 = (3m)^3 = 27m^3 \).
+
+We set this equal to the sum of the three consecutive integers:
+
+\[
+27m^3 = 3(k + 1)
+\]
+
+Dividing both sides by 3, we get:
+
+\[
+9m^3 = k + 1
+\]
+
+Thus, \( k = 9m^3 - 1 \). For the smallest positive cube, we start with the smallest \( m \), which is 1:
+
+For \( m = 1 \):
+
+\[
+k = 9(1)^3 - 1 = 9 - 1 = 8
+\]
+
+The three consecutive integers are 8, 9, and 10. Their sum is:
+
+\[
+8 + 9 + 10 = 27
+\]
+
+Since 27 is a perfect cube (\( 3^3 \)), we check if smaller cubes can be expressed as the sum of three consecutive integers. The cubes smaller than 27 (1, 8) cannot be expressed as such a sum because \( k \) would not be an integer.
+
+Thus, the smallest positive perfect cube that can be written as the sum of three consecutive integers is:
+
+\[
+\boxed{27}
+\]<｜end▁of▁sentence｜>
